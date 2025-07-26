@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+label {
+  margin-bottom: 0.5em;
+}
+
+input[type="text"],
+button {
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004080;
+}
+
+/* ... (Previous CSS rules) ... */
+
+/* Updated styles for the results section */
+#results {
+  margin-top: 2em;
+  background-color: #ffffff;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+
+ul {
+  padding-left: 20px;
+}
+/* Previous CSS rules... */
+
+/* Additional styles for the expandable buttons */
+/* ... (Previous CSS rules) ... */
+
+/* Updated styles for the expandable buttons */
+.expandable-button {
+  display: block;
+  margin-top: 1em;
+  padding: 1em; /* Increased padding for a bigger button */
+  width: 100%;
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  font-size: 1.2em; /* Increased font size */
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.expandable-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  color: #fff;
+  padding: 0.5em 1em; /* Padding for the title */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center;
+  background-image: url('C:\Users\hp\Desktop\travel\charminar_photo.jpg'); /* Replace with the path to your image */
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+/* Existing CSS styles for the form, results, and expandable buttons */
+/* ... */
+
+/* Additional styles for the Package Deals section */
+#packageDeals {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#packageDeals h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+#packageDeals label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+#packageDeals input[type="number"],
+#packageDeals button {
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+#packageDeals button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#packageDeals button:hover {
+  background-color: #0056b3;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#openingPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://media.istockphoto.com/id/1309533625/photo/old-compass-on-vintage-map.jpg?s=2048x2048&w=is&k=20&c=y-N-ghbMP8mQHOC74zb28uFA9fke3sEY4zrycH6lafM='); /* Replace with the path to your opening background image */
+  background-size: cover;
+  background-position: center;
+  animation: fadeOut 5s forwards; /* Animation to fade out the opening page after 5 seconds */
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center text content */
+}
+
+.city-image {
+  max-width: 45%;
+  height: auto;
+  margin-top: 10px; /* Add some margin for spacing */
+}
