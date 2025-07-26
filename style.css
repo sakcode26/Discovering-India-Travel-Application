@@ -113,7 +113,7 @@ h2 {
   padding: 0.5em 1em; /* Padding for the title */
   border-radius: 5px; /* Rounded corners */
   text-align: center;
-  background-image: url('C:\Users\hp\Desktop\travel\charminar_photo.jpg'); /* Replace with the path to your image */
+  background-image: url('images/charminar_photo.jpg');
   background-size: cover; /* Ensure the image covers the entire area */
   background-repeat: no-repeat; /* Prevent the image from repeating */
 }
